@@ -1,0 +1,115 @@
+﻿@using System.Diagnostics;
+@model List<Software>
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Results</title>
+
+
+    <link rel="stylesheet" type="text/css" href="~/css/site.css">
+    
+</head>
+
+<body>
+
+    <!-- Search Bar -->
+    <div class="search-bar-container">
+        <form asp-controller="Software" asp-action="search" method="POST">
+            <input type="text" name="searchString" placeholder="Search..." />
+        </form>
+        <div class="cart-container">
+            <button class="cart-container" type="submit" onclick="goToViewCart()" /><img src="/images/cart.jpg" alt="Cart" class="cart-icon" />
+            <div class="cart-count" id="cart-count-tag"></div>
+        </div>
+    </div>
+    
+
+
+
+
+    <div class="grid-container">
+        @foreach (var software in Model)
+        {
+            <div class="grid-item">
+                <h2>@software.softwareName</h2>
+                <img src="@Url.Content(software.imageUrl)" alt="@software.softwareName" />
+                <p>@software.description</p>
+                <p>Price: $@software.price</p>
+                <button type="submit" onclick="addToCart(@software.softwareId)">Add to Cart</button>
+
+            </div>
+        }
+    </div>
+    <script>
+        const cartCountTag = document.getElementById("cart-count-tag");
+        var softwareToPurchase = [];
+        Load();
+        function addToCart(softwareId){
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "/Software/AddToCart?softwareId="+softwareId);
+
+            xhr.setRequestHeader("content-type", "application/json");
+            xhr.onreadystatechange = function () {
+                if (this.readyState == XMLHttpRequest.DONE && this.status == 200)
+                {
+                    softwareToPurchase.push(softwareId);
+                    cartCountTag.innerHTML = softwareToPurchase.length;
+
+                    if (Number.parseInt(softwareToPurchase.length) > 0) {
+                        cartCountTag.classList.add("border-1");
+                    } else {
+                        cartCountTag.classList.remove("border-1");
+                    }
+                }
+            }
+            let data = {
+                "softwareId": softwareId
+            };
+            xhr.send(JSON.stringify(data));
+        }
+
+        function goToViewCart() {
+            var softwareToPurchaseString = "";
+            for (var i = 0; i < softwareToPurchase.length; i++) 
+            {
+                softwareToPurchaseString = softwareToPurchaseString + `,${softwareToPurchase[i]}`;
+            }
+            window.location.href = "/software/ViewCart?softwareToPurchase=" + softwareToPurchaseString;
+        }
+
+        function Load() {
+            
+        @{
+            IEnumerable<string>? softKeys = HttpContextAccessor.HttpContext?.Session.Keys.Where((k) => k.StartsWith("soft"));
+            
+            if (softKeys != null)
+                {
+                    foreach (string k in softKeys)
+                    {
+                        string? softId = HttpContextAccessor.HttpContext?.Session.GetString(k);
+                    
+                        if(softId != null)
+                        {
+                            @:softwareToPurchase.push(@softId);
+                         }
+                    }
+                    @:cartCountTag.innerHTML = softwareToPurchase.length;
+                    @:if (Number.parseInt(softwareToPurchase.length) > 0)
+                    @:{
+                    @:    cartCountTag.classList.add("border-1");
+                    @:}
+                    @:else
+                    @:{
+                    @:    cartCountTag.classList.remove("border-1");
+                    @:}
+                }
+             }
+        }
+    </script>
+
+
+</body>
+</html>

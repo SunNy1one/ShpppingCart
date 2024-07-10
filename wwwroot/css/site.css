@@ -1,0 +1,77 @@
+.search-bar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cart-container {
+    top: 20px;
+    right: 20px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+}
+
+/* Cart Icon */
+.cart-icon {
+    width: 32px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0px;
+}
+
+.cart-count {
+    display: block;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+    padding: 2px 9px 2px 9px;
+}
+
+.cart-button {
+    
+}
+
+/* Grid Container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-auto-rows: auto; /* Automatically size rows */
+    gap: 20px; /* Gap between grid items */
+    width: 60%; /* Set the width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+
+/* Grid Item */
+.grid-item {
+    border: 1px solid #ccc; /* Border for each grid item */
+    padding: 20px; /* Padding inside each grid item */
+    text-align: center; /* Center align content */
+}
+
+
+
+    /* Image styling */
+    .grid-item img {
+        max-width: 100%; /* Ensure images don't exceed container width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+.border-1 {
+    border: 1px solid black;
+}
+.view-cart-nav
+{
+    display:flex;
+    width:320px;
+    justify-content: space-around;
+    font-family: Arial;
+
+}

@@ -1,0 +1,321 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ShoppingCart.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ShoppingCart.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\images\\analytics.jpg",
+      "PackagePath": "staticwebassets\\images\\analytics.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\images\\bizintel.jpg",
+      "PackagePath": "staticwebassets\\images\\bizintel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\images\\cart.jpg",
+      "PackagePath": "staticwebassets\\images\\cart.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\images\\chart.JPG",
+      "PackagePath": "staticwebassets\\images\\chart.JPG"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\images\\charts.jpg",
+      "PackagePath": "staticwebassets\\images\\charts.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\images\\data.jpg",
+      "PackagePath": "staticwebassets\\images\\data.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\images\\ml.jpg",
+      "PackagePath": "staticwebassets\\images\\ml.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\images\\numerics.jpg",
+      "PackagePath": "staticwebassets\\images\\numerics.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\images\\paypal.jpg",
+      "PackagePath": "staticwebassets\\images\\paypal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\images\\recoomender.jpg",
+      "PackagePath": "staticwebassets\\images\\recoomender.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\images\\recorder.jpg",
+      "PackagePath": "staticwebassets\\images\\recorder.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\images\\statcompiler.jpg",
+      "PackagePath": "staticwebassets\\images\\statcompiler.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\images\\timeseries.jpg",
+      "PackagePath": "staticwebassets\\images\\timeseries.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\GenjiSun\\Desktop\\Assignment\\4.25asp\\ShoppingCartlastest\\ShoppingCart\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ShoppingCart.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ShoppingCart.props",
+      "PackagePath": "build\\ShoppingCart.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ShoppingCart.props",
+      "PackagePath": "buildMultiTargeting\\ShoppingCart.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ShoppingCart.props",
+      "PackagePath": "buildTransitive\\ShoppingCart.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

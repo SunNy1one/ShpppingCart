@@ -1,0 +1,137 @@
+﻿@model PurchaseCart
+
+
+<style>
+    .total {
+        display: inline-block;
+        margin-right: 0px; /* Add some space between the elements */
+        font-weight: bold; /* Optionally make the "Total:" text bold */
+        text-align: right;
+    }
+
+    #totalAmount {
+        display: inline; /* Ensure the total amount appears on the same line */
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href="~/css/viewcart.css">
+</head>
+<body>
+    <header>
+        <style>
+            .link-button
+        </style>
+        
+            <div class="view-cart-nav">
+                
+                <button onclick="goTo('/software/index')" class="btn btn-primary">Continue Shopping</button>
+                
+                
+                <button onclick="goTo('/software/checkout')" class="btn text-white" style="background-color:darkgreen">Checkout</button>
+                
+            </div>
+        
+
+        <div class="total">
+            Total: $
+        </div>
+
+        <div id="total" class="total">
+            0.00
+        </div>
+
+    </header>
+    <div class="grid-container">
+        @foreach (var sp in Model.softwareToPurchase())
+        {
+            <div class="grid-item">
+                <h2>@sp.softwareName</h2>
+                <img src="@sp.imageUrl" alt="@sp.softwareName" />
+                <p>@sp.description</p>
+                <div class="price-and-quantity">
+                    <p>Price: $@sp.price</p>
+
+                    <div class="quantity-selector">
+                        <button onclick="decreaseQuantity(@sp.softwareId, @sp.price)" class="decrease" data-item-id="soft@sp.softwareId">-</button>
+                        <span id="quantity_@sp.softwareId" class="quantity">@Model.GetSoftwareCount(sp.softwareId)  </span>
+                        <button onclick="increaseQuantity(@sp.softwareId, @sp.price) " class="increase" data-item-id="soft@sp.softwareId">+</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        }
+    </div>
+    <script>
+        loadViewCart();
+        
+        function updateQuantity(softwareId, action) {
+            var quantityElement = document.getElementById("quantity_" + softwareId);
+
+            var currentQuantity = parseInt(quantityElement.innerText);
+            var newQuantity;
+            if (action == "increase") {
+                newQuantity = currentQuantity + 1;
+            } else {
+                newQuantity = Math.max(0, currentQuantity - 1);
+            }
+
+            quantityElement.innerText = newQuantity;
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", `/software/EditQuantity?todo=${action}&softwareId=${softwareId}`);
+            xhr.setRequestHeader("content-type", "application/json");
+            
+            xhr.send();
+        }
+
+
+        function increaseQuantity(softwareId, price) {
+           
+            var totalElement = document.getElementById("total")
+            var tvalue = parseInt(totalElement.innerText);
+
+            var newvalue = tvalue + price;
+
+            totalElement.innerText = newvalue;
+
+            updateQuantity(softwareId, "increase");
+        }
+
+
+        function decreaseQuantity(softwareId, price) {
+            
+            var totalElement = document.getElementById("total")
+            var tvalue = parseInt(totalElement.innerText);
+
+            totalElement.innerText = Math.max(0, tvalue - price);
+
+            updateQuantity(softwareId, "decrease");
+        }
+
+        function loadViewCart() {
+            console.log('running load');
+            var totalElement = document.getElementById("total")
+            var totalPrice = '@Html.Raw(Model.GetPurchaseCartPrice())';
+            totalElement.innerText = totalPrice;
+        }
+
+        function goTo(url) { 
+            window.location.href = url;
+        }
+
+
+    </script>
+
+
+
+</body>
+</html>
+
+
